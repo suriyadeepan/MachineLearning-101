@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # python3
-sudo apt install python3 python3-dev python3-pip 
+sudo apt -y install python3 python3-dev python3-pip 
 
 # upgrade pip3
 sudo -H pip3 install --upgrade pip
 
 # install ipython3, jupyter
-sudo apt install ipython3
+sudo apt -y install ipython3
 sudo -H pip3 install --upgrade jupyter
 # minimal installation : jupyter[notebook]
 

@@ -14,7 +14,7 @@ cd MachineLearning-101/
 
 # install dependencies
 chmod +x scripts/deps.sh
-scripts/deps.sh
+sudo scripts/deps.sh
 
 # create folder for env setup
 mkdir env && cd env
