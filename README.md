@@ -28,6 +28,7 @@ source ml101/bin/activate
 # now we are in virtual env
 #  your prompt should look like
 #   (ml101) username@compname:~/wherever/
+cd ../ # go back to root
 pip3 install -r requirements.txt
 
 # install ml101 kernel to jupyter notebook
