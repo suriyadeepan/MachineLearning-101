@@ -23,12 +23,12 @@ mkdir env && cd env
 virtualenv --python=python3 ml101
 
 # activate env
-soruce ml101/bin/activate
+source ml101/bin/activate
 
 # now we are in virtual env
 #  your prompt should look like
 #   (ml101) username@compname:~/wherever/
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # install ml101 kernel to jupyter notebook
 python3 -m ipykernel install --user --name=ml101
